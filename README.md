@@ -1,13 +1,11 @@
-# Architect theme
+# Architect bootstrap starter theme
 
-This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](http://pages.github.com/), modified by @brodybits (Christopher J. Brody aka Chris Brody).
+Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme), with quick adaptations to use [Bootstrap with navbar-fixed](https://getbootstrap.com/docs/4.3/examples/navbar-fixed/) and other modifications by @brodybits (Christopher J. Brody aka Chris Brody).
 
-![](http://cl.ly/image/1x0Q3213330G/content)
+## Using with Jekyll
 
-# Using with Jekyll
+If you'd like to use [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme) with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-architect-theme
 
-If you'd like to use this theme with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-architect-theme
+## License
 
-# License
-
-This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), with some modifications from Bootstrap licensed under MIT license.
