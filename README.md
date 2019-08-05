@@ -1,6 +1,6 @@
-# Architect bootstrap starter theme
+# Architect bootstrap starter theme with fixed navbar
 
-Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme), with quick adaptations to use [Bootstrap with navbar-fixed](https://getbootstrap.com/docs/4.3/examples/navbar-fixed/) and other modifications by @brodybits (Christopher J. Brody aka Chris Brody).
+Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme), with quick adaptations to use [Bootstrap with navbar-fixed](https://getbootstrap.com/docs/4.3/examples/navbar-fixed/), improve printing style, and other minor updates by @brodybits (Christopher J. Brody aka Chris Brody).
 
 ## Sample website
 
