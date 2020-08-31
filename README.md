@@ -1,6 +1,6 @@
 # Architect bootstrap starter theme with fixed navbar
 
-Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme), with quick adaptations to use [Bootstrap with navbar-fixed](https://getbootstrap.com/docs/4.3/examples/navbar-fixed/), improve printing style, and other minor updates by @brodybits (Christopher J. Brody aka Chris Brody).
+Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme), similar to [`pages-themes/architect`](https://github.com/pages-themes/architect), with quick adaptations to use [Bootstrap with navbar-fixed](https://getbootstrap.com/docs/4.3/examples/navbar-fixed/), improve printing style, and other minor updates by @brodybits (Christopher J. Brody aka Chris Brody).
 
 ## Sample website
 
@@ -9,6 +9,8 @@ Based on [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-th
 ## Using with Jekyll
 
 If you'd like to use [`jasonlong/architect-theme`](https://github.com/jasonlong/architect-theme) with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-architect-theme
+
+See also: [`pages-themes/architect`](https://github.com/pages-themes/architect), with CC0 license (public domain)
 
 ## License
 
