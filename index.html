@@ -9,34 +9,37 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Architect bootstrap starter theme</title>
+    <title>storesafe by @brodybits</title>
   </head>
 
   <body>
 
-    <!-- Bootstrap navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Bootstrap navbar (fixed at top)</a>
-    </nav>
+    <div class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="navbar-brand" href="#">storesafe by @brodybits</div>
+    </div>
 
     <header>
       <div class="inner">
-        <h1>Architect</h1>
-        <!-- h2 text removed -->
-        <!-- sample button removed -->
+        <h1>storesafe</h1>
+        <img src="images/storage-pic-by-joshua-coleman.png" />
+        <h2>cross-platform mobile app data storage</h1>
         <div class="hdtext">
+        <p>by @brodybits</p>
+        <!-- sample button removed -->
           <ul>
-            <li>Open Source</li>
-            <li>Private consulting</li>
+            <li>embedded mobile databases</li>
+            <li>consulting</li>
+            <li>mentoring and training</li>
           </ul>
-        </div>
+          <p>located in East Coast USA</p>
       </div>
     </header>
 
@@ -44,52 +47,240 @@
       <div class="inner clearfix">
         <section id="main-content">
 
-        <h1>Headline 1</h1>
-	<p>Lorem ipsum yada yada yada</p>
+        <h1>about</h1>
 
-        <div class="shtext">
-          <ul>
-            <li>html</li>
-            <li>git</li>
-          </ul>
-        </div>
+<p>
+storesafe by @brodybits (Christopher J. Brody aka Chris Brody)
+offers products and services for
+cross-platform mobile applications with heavy-duty data storage,
+using the familiar HTML, CSS, and JavaScript technologies.
+</p>
 
-        <div class="highlight">
-        <pre><span class="nb">require</span> <span class="s1">'redcarpet'</span>
-<span class="n">markdown</span> <span class="o">=</span> <span class="no">Redcarpet</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="n">markdown</span><span class="o">.</span><span class="n">to_html</span></pre>
-        </div>
+<p>
+storesafe mobile application databases using the widely-known
+<a href="https://www.sqlite.org/" target="_blank">SQLite</a> and
+<a href="https://github.com/sqlcipher/sqlcipher" target="_blank">SQLCipher</a>
+components with support for Cordova (PhoneGap) and React Native frameworks.
+</p>
 
-        <h2>Headline 2</h2>
-	Lorem ipsum
+<p>
+@brodybits is a trusted Apache Cordova committer with 8 years
+of experience with cross-platform mobile app development and
+over 15 years of experience with high-performance
+mobile messaging software development.
+</p>
+
+        <h1>software components</h1>
+
+        <h2>software environment</h2>
+
+<p>
+Apache Cordova which was born and still sometimes known as PhoneGap is a widely-used framework
+that enables people to develop cross-platform mobile apps in HTML, CSS, and JavaScript.
+The consultant @brodybits is the primary owner and maintainer of the cordova-sqlite-storage
+component that provides the mobile app database functionality using the famous SQLite library.
+@brodybits has also been involved with higher-level integration and with maintenance of
+Apache Cordova itself.
+</p>
+
+        <h2>database storage components</h2>
+
+<p>
+SQLite database storage provided for Android, iOS, and Windows platforms
+</p>
+
+        <table class="table table-striped">
+          <thead>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Free license</th>
+            <th scope="col">Commercial license per app</th>
+            <th scope="col">Commercial license for unlimited apps</th>
+            <th scope="col">Commercial warranty and support</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th>cordova-sqlite-storage</th>
+              <td>
+                Basic plugin version that the other sqlite plugin versions are based on.
+                <br/>
+                <font face="Courier">
+                <a href="https://www.npmjs.com/package/cordova-sqlite-storage" target="_blank">npm:cordova-sqlite-storage</a>
+                </font>
+              </td>
+              <td>MIT</td>
+              <td>N/A</td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <th>cordova-sqlite-ext</th>
+              <td>
+                Added support for REGEXP, non-standard BASE64 function, and pre-populated databases
+                <br/>
+                <font face="Courier">
+                <a href="https://www.npmjs.com/package/cordova-sqlite-ext" target="_blank">npm:cordova-sqlite-ext</a>
+                </font>
+              </td>
+              <td>MIT</td>
+              <td>N/A</td>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <th>cordova-sqlite-evcore-extbuild-free</th>
+              <td>
+                Performance and stability enhancements for Android; support for PhoneGap Build
+                <br/>
+                <font face="Courier">
+                <a href="https://www.npmjs.com/package/cordova-sqlite-evcore-extbuild-free" target="_blank">npm:cordova-sqlite-evcore-extbuild-free</a>
+                </font>
+              </td>
+              <td>GPL v3</td>
+              <td>
+                <s>(US) $1800</s>
+                <div class="redaccent">(US) $500</div>
+              </td>
+              <td>N/A</td>
+              <td>30 days</td>
+            </tr>
+            <tr>
+              <th>cordova-sqlite-evplus-common-free</th>
+              <td>
+                More optimizations for Android and iOS; includes an additional workaround solution to support extra-large result data sets on Android
+                <br/>
+                <font face="Courier">
+                <a href="https://github.com/brodysoft/cordova-plugin-sqlite-evplus-ext-common-free" target="_blank">github:brodysoft/cordova-plugin-sqlite-evplus-ext-common-free</a>
+                </font>
+              </td>
+              <td>GPL v3</td>
+              <td>N/A</td>
+              <td>
+                <s>(US) $4000</s>
+                <div class="redaccent">(US) $1200</div>
+              </td>
+              <td>6 months</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>other components and frameworks</h2>
+
+<ul>
+<li>integration with Vue.js, React, and React Native</li>
+<li>maintenance and support of Apache Cordova</li>
+</ul>
+
+        <h2>programming languages and paradigms</h2>
+
+<ul>
+<li>functional and structured programming in JavaScript</li>
+<li>low-level structured and object-oriented programming in Java, C++, and Objective-C</li>
+<li>over 15 years of low-level structured programming in C</li>
+</ul>
+
+        <h2>processes</h2>
+
+<ul>
+<li>Focus on highly interactive rapid development</li>
+<li>brief experience with scrum and extreme programming</li>
+</ul>
+
+        <h1>consulting services</h1>
+
+        <h2>addressing challenges</h2>
+
+<p>including the following:</p>
+
+<ul>
+<li>
+Definition and understanding of the real user and business needs
+</li>
+<li>
+Definition of the actual technical requirements
+</li>
+<li>
+Need for flexibility
+</li>
+<li>
+Need for aftercare
+</li>
+<li>
+Time constraints
+</li>
+<li>
+Resource constraints
+</li>
+<li>
+Other forms of risk management
+</li>
+</ul>
+
+        <h2>approach</h2>
+
+<ul>
+<li>
+Begin with discussions in order to reach a mutual understanding requirements and needs at a high level
+</li>
+<li>
+More detailed dialog in order to measure the scope of requirements and needs, with room for flexibility
+</li>
+<li>
+Proposal and discusion of alternative plans
+</li>
+<li>
+Execution and delivery in collaboration with other parties as needed
+</li>
+<li>
+Support and aftercare included as agreed
+</li>
+<li>
+Followup dialog to evaluate the fulfillment according to the actual needs, what went well, areas of possible improvement, and what kind of support may still be needed
+</li>
+</ul>
+
+        <h1>priority services</h1>
+
+<p>
+Priority help is generally available 10am-8pm NYC time Sunday-Thursday and 10am-2pm NYC time on Fridays. Cost is (US) $350 for 90 minutes.
+Payment via PayPal to <a href="mailto:payments@brodysoft.com">payments@brodysoft.com</a> (Brodysoft LLC) is preferred.
+<a href="https://calendly.com/xpbrew/priority-consulting" target="_blank">Confirm a priority consulting session on Calendly today</a>.
+</p>
+<p>
+Please reach out to <a href="mailto:sales@storesafe.io">sales@storesafe.io</a> in case of any questions.
+</p>
+
+        <h1>confirm a session</h1>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/xpbrew" style="min-width:340px;height:580px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+
+        <h1>contact</h1>
 
         <ul>
-          <li>yada</li>
-          <li>yada</li>
-          <li>yada</li>
+          <li><a href="mailto:sales@storesafe.io">sales@storesafe.io</a>
+          <li><a href="https://linkedin.com/in/chrisbrody/" target="_blank">linkedin.com/in/chrisbrody</a>
         </ul>
 
-        <h3>Headline 3</h3>
-	<p>Lorem ipsum yada yada yada</p>
-
-        <h4>Headline 4</h4>
-	<p>Lorem ipsum yada yada yada</p>
-
-        <h5>Headline 5</h5>
-	<p>Lorem ipsum yada yada yada</p>
-
-        <h6>Headline 6</h6>
-	<p>Lorem ipsum yada yada yada</p>
-
-        <h2>Credits</h2>
+        <h1>website credits</h1>
 
 <p>
 Based on <a href="https://github.com/brodybits/architect-bootstrap-starter-theme" target="_blank">
 architect-bootstrap-starter-theme</a> by <a href="https://github.com/brodybits" target="_blank">
-@brodybits (Christopher J. Brody aka Chris Brody)</a>, which is in turn based on
+@brodybits (Christopher J. Brody aka Chris Brody)</a> which is based on
 <a href="https://github.com/jasonlong/architect-theme" target="_blank">
 architect-theme</a> by <a href="https://github.com/jasonlong" target="_blank">@jasonlong (Jason Long)</a>.
 </p>
+
+<p>
+<span>Photo by <a href="https://unsplash.com/@joshstyle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JOSHUA COLEMAN</a> on <a href="https://unsplash.com/s/photos/storage?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> (cropped by @brodybits)
+</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/" target="_blank">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>&nbsp;
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/" target="_blank">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 
         </section>
 
